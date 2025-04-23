@@ -43,7 +43,7 @@ header {
 
 .logo {
   font-size: 3rem;
-  color: #4bb74b;
+  color: #4ba1b7;
   font-weight: 800;
   cursor: pointer;
   transition: 0.5s ease;
@@ -64,8 +64,8 @@ nav a {
 
 nav a:hover,
 nav a.active {
-  color: #4bb74b;
-  border-bottom: 3px solid #4bb74b;
+  color: #4ba1b7;
+  border-bottom: 3px solid #4ba1b7;
 }
 
 section {
@@ -85,7 +85,7 @@ section {
 .home-img img {
   width: 32vw;
   border-radius: 50%;
-  box-shadow: 0 0 25px #4bb74b;
+  box-shadow: 0 0 25px #4ba1b7;
   transition: 0.3s ease;
 }
 
@@ -106,7 +106,7 @@ section {
 }
 
 span {
-  color: #4bb74b;
+  color: #4ba1b7;
 }
 
 .home-content p {
@@ -121,8 +121,8 @@ span {
   width: 4rem;
   height: 4rem;
   background: transparent;
-  border: 2px solid #4bb74b;
-  color: #4bb74b;
+  border: 2px solid  #4ba1b7;
+  color: #4ba1b7;
   font-size: 2rem;
   border-radius: 50%;
   margin: 3rem 1.5rem 3rem 0;
@@ -130,10 +130,10 @@ span {
 }
 
 .social-icons a:hover {
-  background-color: #4bb74b;
+  background-color: #4ba1b7;
   color: black;
   transform: scale(1.3) translateY(-5px);
-  box-shadow: 0 0 25px #4bb74b;
+  box-shadow: 0 0 25px #4ba1b7;
 }
 
 .btn {
@@ -142,18 +142,18 @@ span {
   background-color: black;
   border-radius: 4rem;
   font-size: 1.6rem;
-  color: #4bb74b;
+  color: #4ba1b7;
   letter-spacing: 0.3rem;
   font-weight: 600;
-  border: 2px solid #4bb74b;
+  border: 2px solid #4ba1b7;
   transition: 0.3s ease;
   cursor: pointer;
 }
 
 .btn:hover {
-  background-color: #4bb74b;
+  background-color: #4ba1b7;
   color: black;
-  box-shadow: 0 0 25px #4bb74b;
+  box-shadow: 0 0 25px  #4ba1b7;
 }
 
 .typing-text {
@@ -197,13 +197,13 @@ span {
 .skill-card:hover,
 .info-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 0 20px #4bb74b;
+  box-shadow: 0 0 20px #4ba1b7;
 }
 
 .skill-card i,
 .info-card i {
   font-size: 4.5rem;
-  color: #4bb74b;
+  color: #4ba1b7;
   margin-bottom: 1rem;
 }
 
@@ -216,7 +216,7 @@ span {
 .info-card h3 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  color: #4bb74b;
+  color:  #4ba1b7;
 }
 
 .info-card span {
@@ -261,7 +261,7 @@ footer {
 .projects {
   padding: 8rem 9% 5rem;
   background-color: black;
-  border-left: 5px solid #4CAF50; /* إضافة الشريط الأخضر الجانبي */
+  border-left: 5px solid  #4ba1b7; /* إضافة الشريط الأخضر الجانبي */
 }
 
 .projects h2 {
@@ -287,7 +287,7 @@ footer {
 .project-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-  border-left: 5px solid #4CAF50; /* التأثير الأخضر عند التمرير */
+  border-left: 5px solid #4ba1b7; /* التأثير الأخضر عند التمرير */
 }
 
 .project-card h3 {
@@ -302,22 +302,22 @@ footer {
 }
 
 .project-card .btn {
-  background-color: #4CAF50; /* نفس اللون الأخضر */
+  background-color:  #4ba1b7; /* نفس اللون الأخضر */
   color: white;
   padding: 1rem 2.8rem;
   border-radius: 4rem;
   font-size: 1.6rem;
   letter-spacing: 0.3rem;
   font-weight: 600;
-  border: 2px solid #4CAF50;
+  border: 2px solid  #4ba1b7;
   transition: 0.3s ease;
   text-decoration: none;
 }
 
 .project-card .btn:hover {
   background-color: white;
-  color: #4CAF50;
-  box-shadow: 0 0 25px #4CAF50;
+  color:  #4ba1b7;
+  box-shadow: 0 0 25px #4ba1b7;
 }
 
 .about {
@@ -329,7 +329,7 @@ footer {
   font-size: 4.4rem;
   text-align: center;
   margin-bottom: 3rem;
-  color: #4caf50; /* أخضر */
+  color: #4ba1b7; /* أخضر */
 }
 
 .about .info-card p {
@@ -350,7 +350,7 @@ footer {
     font-size: 4.4rem;
     text-align: center;
     margin-bottom: 3rem;
-    color: #4caf50;
+    color: #4ba1b7;
   }
   
   .contact-items p {
@@ -386,11 +386,11 @@ footer {
   
   /* WhatsApp */
   .contact .fa-whatsapp {
-    color: #25D366;
-    border: 2px solid #25D366;
+    color: #4ba1b7;
+    border: 2px solid  #4ba1b7;
   }
   .contact .fa-whatsapp:hover {
-    background-color: #25D366;
+    background-color:  #4ba1b7;
     color: white;
     transform: scale(1.2);
   }
@@ -424,8 +424,8 @@ footer {
     width: 5rem; /* حجم الأيقونة */
     height: 5rem; /* حجم الأيقونة */
     background: transparent;
-    border: 2px solid #4bb74b; /* اللون الأخضر للحدود */
-    color: #4bb74b; /* اللون الأخضر للرمز */
+    border: 2px solid #4ba1b7; /* اللون الأخضر للحدود */
+    color:  #4ba1b7; /* اللون الأخضر للرمز */
     font-size: 2.5rem; /* حجم الرمز */
     border-radius: 50%;
     margin: 1rem;
@@ -433,7 +433,7 @@ footer {
   }
   
   .social-icons a:hover {
-    background-color: #4bb74b; /* الخلفية تصبح خضراء عند المرور */
+    background-color: #4ba1b7; /* الخلفية تصبح خضراء عند المرور */
     color: black; /* اللون الأسود للنص عند المرور */
     transform: scale(1.3); /* تكبير الأيقونة */
   }
