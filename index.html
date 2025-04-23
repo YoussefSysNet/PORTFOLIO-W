@@ -23,13 +23,15 @@
   </header>
 
   <section class="home" id="home">
-    <div class="home-img">
-      <img src="youssef.jpg" alt="Youssef Photo">
-    </div>
     <div class="home-content">
-      <h1>Hi, It's <span>Youssef Ouahman</span></h1>
+      <h1>Hi, I'm <span>Youssef Ouahman</span></h1>
       <h3 class="typing-text">I'm a <span id="typed-text"></span></h3>
+      <div class="buttons">
+        <a href="mailto:youssefouahman07@gmail.com" class="btn">Hire Me</a>
+        <a href="#contact" class="btn outline">Let's Talk</a>
+      </div>
       <div class="social-icons">
+        <!-- هادو خليهوم بحال ما كانو -->
         <a href="https://www.linkedin.com/in/youssef-ouahman-43a9a6353" target="_blank">
           <i class="fab fa-linkedin"></i>
         </a>
@@ -46,9 +48,12 @@
           <i class="fab fa-facebook"></i>
         </a>
       </div>
-      <a href="mailto:youssefouahman07@gmail.com" class="btn">Contact me</a>
+    </div>
+    <div class="home-img">
+      <img src="youssef.jpg" alt="Youssef Photo">
     </div>
   </section>
+  
 
   <section class="about" id="about">
     <h2>About Me</h2>
@@ -182,6 +187,12 @@
     }
 
     document.addEventListener("DOMContentLoaded", typeEffect);
+  </script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script>
+    particlesJS.load('particles-js', 'particles-config.json', function () {
+      console.log('particles.js loaded!');
+    });
   </script>
 
 </body>
