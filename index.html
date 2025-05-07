@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
+  <button id="mode-toggle">Mode Dark</button>
 
   <header>
     <a href="#home" class="logo">Youssef</a>
@@ -194,6 +195,10 @@
       console.log('particles.js loaded!');
     });
   </script>
+  const toggleBtn = document.getElementById('mode-toggle');
+toggleBtn.addEventListener('click', () => {
+  document.body.classList.toggle('dark-mode');
+});
 
 </body>
 </html>
