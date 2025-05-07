@@ -587,22 +587,3 @@ body {
   color: black;
   transition: background-color 0.3s, color 0.3s;
 }
-
-button {
-  padding: 10px 20px;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-}
-
-/* الوضع الداكن (Dark Mode) */
-body.dark-mode {
-  background-color: #121212;
-  color: white;
-}
-
-body.dark-mode button {
-  background-color: #333;
-  color: white;
-}
-
