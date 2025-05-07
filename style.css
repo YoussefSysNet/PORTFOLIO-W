@@ -580,5 +580,29 @@ footer {
     box-shadow: 0 0 50px #4ba1b7;
     transition: transform 0.3s ease;
   }
-  
-  
+  /* الوضع العادي (Light Mode) */
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* الوضع الداكن (Dark Mode) */
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+body.dark-mode button {
+  background-color: #333;
+  color: white;
+}
+
