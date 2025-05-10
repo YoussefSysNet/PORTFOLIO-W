@@ -580,10 +580,4 @@ footer {
     box-shadow: 0 0 50px #4ba1b7;
     transition: transform 0.3s ease;
   }
-  /* الوضع العادي (Light Mode) */
-body {
-  font-family: Arial, sans-serif;
-  background-color: white;
-  color: black;
-  transition: background-color 0.3s, color 0.3s;
-}
+
