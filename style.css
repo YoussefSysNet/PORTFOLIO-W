@@ -19,7 +19,7 @@ body {
   width: 100%;
   min-height: 100vh;
   background-color: black;
-  color: white;
+  color: black;
   overflow-x: hidden;
 }
 
@@ -55,7 +55,7 @@ header {
 
 nav a {
   font-size: 1.8rem;
-  color: white;
+  color: #4ba1b7;
   margin-left: 4rem;
   font-weight: 500;
   transition: 0.3s ease;
